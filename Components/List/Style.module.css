@@ -1,0 +1,27 @@
+.Container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.TodoContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.TodoContainer label {
+  color: var(--primaryColor);
+  font-weight: bolder;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
+.TodoContainer label.active {
+  text-decoration: line-through;
+}
