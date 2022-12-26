@@ -2,10 +2,10 @@ import React from 'react';
 import style from './Style.module.css';
 
 export default function List({todo, setTodo}) {
-  todo = todo[0];
   let checkToggle = (id) => {
     let newTodo = [...todo];
     newTodo[id].status = !newTodo[id].status;
+    console.log(newTodo);
     setTodo(newTodo);
   };
 

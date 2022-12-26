@@ -3,7 +3,7 @@ import List from '../List/List';
 import style from './Style.module.css';
 
 export default function Todo({initialData}) {
-  let [todo, setTodo] = useState([initialData]);
+  let [todo, setTodo] = useState(initialData);
   let inputRef = useRef();
 
   let submitHandler = (e) => {
