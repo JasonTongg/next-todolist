@@ -27,24 +27,28 @@ export default function Home(props) {
           width={300}
           height={300}
           style={{objectFit: 'cover'}}
+          alt="wallpaper"
         />
         <Image
           src={image2}
           width={300}
           height={300}
           style={{objectFit: 'cover'}}
+          alt="wallpaper"
         />
         <Image
           src={image3}
           width={300}
           height={300}
           style={{objectFit: 'cover'}}
+          alt="wallpaper"
         />
         <Image
           src={image4}
           width={300}
           height={300}
           style={{objectFit: 'cover'}}
+          alt="wallpaper"
         />
       </div>
     </div>
